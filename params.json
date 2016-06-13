@@ -1,0 +1,6 @@
+{
+  "name": "Vscode-generator-code",
+  "tagline": "visual studio code generator",
+  "body": "# Yo Code - Extension and Customization Generator\r\n[![build status](https://travis-ci.org/Microsoft/vscode-generator-code.svg?branch=master)](https://travis-ci.org/Microsoft/vscode-generator-code)\r\n\r\nWe have written a Yeoman generator to help get you started. We plan to add templates for most extension/customization types into this.\r\n\r\n## Install the Generator\r\n\r\nInstall Yeoman and the VS Code Extension generator:\r\n\r\n```bash\r\nnpm install -g yo generator-code\r\n```\r\n\r\n## Run Yo Code\r\nThe Yeoman generator will walk you through the steps required to create your customization or extension prompting for the required information.\r\n\r\nTo launch the generator simply type:\r\n\r\n```bash\r\nyo code\r\n```\r\n\r\n![The command generator](yocode.png)\r\n\r\n## Generator Output\r\n\r\nThese templates will\r\n* Create a base folder structure\r\n* Template out a rough `package.json`\r\n* Import any assets required for your extension e.g. tmBundles or the VS Code Library\r\n* For Extensions: Set-up `launch.json` for running your extension and attaching to a process\r\n\r\n## License\r\n\r\n[MIT](LICENSE)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
